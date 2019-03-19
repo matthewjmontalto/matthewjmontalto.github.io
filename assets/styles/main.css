@@ -1,7 +1,50 @@
 body {
-  background: #000;
+  background: #2c3748;
 }
 
 h1 {
-  color: #FF2734;
+  color: #ffa803;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+section {
+  height: 75vh;
+}
+
+.about {
+  background-color: grey;
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+}
+.hero-image {
+  background-color: white;
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%
+}
+
+.projects {
+  background-color: grey
+}
+
+.skills {
+  color: white
+  text-align: center;
+}
+
+.titles {
+  text-align: center;
 }

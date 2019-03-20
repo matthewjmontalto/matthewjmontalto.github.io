@@ -14,11 +14,15 @@ h3 {
   color: white;
 }
 
+header {
+  min-height: 80vh;
+}
+
 p {
   color: white;
 }
 section {
-  height: 75vh;
+  min-height: 80vh;
 }
 
 .about {
@@ -27,13 +31,16 @@ section {
 }
 
 .hero {
+  margin: 2rem 0;
   text-align: center;
 }
+
 .hero-image {
   background-color: white;
+  border-radius: 50%;
   height: 50vh;
+  margin: 2rem 0;
   width: 50vh;
-  border-radius: 50%
 }
 
 .projects {
@@ -46,5 +53,6 @@ section {
 }
 
 .titles {
+  margin: 2rem 0;
   text-align: center;
 }

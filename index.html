@@ -8,38 +8,34 @@
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <!-- natice styles -->
+  <!-- native styles -->
   <link href="assets/styles/main.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="assets/scripts/index.js" type="text/javascript" charset="utf-8" defer></script>
 </head>
 
 <body>
-  <nav>
-    <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-      <a class="navbar-brand">Matthew J. Montalto</a>
-      <div class="d-flex justify-content-end">
-        <a class="navbar-nav mr-2 p-2" href="#about">About</a>
-        <a class="navbar-nav mr-2 p-2" href="#knowledge">Knowledge</a>
-        <a class="navbar-nav mr-2 p-2" href="#projects">Projects</a>
-        <a class="navbar-nav mr-2 p-2" href="#resume">Resume</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky d-flex justify-content-between">
+      <div>
+        <a class="navbar-brand">Matthew J. Montalto</a>
+      </div>
+      <div class="d-inline-flex">
+        <a class="navbar-nav mr-2 p-2" href="#about">ABOUT</a>
+        <a class="navbar-nav mr-2 p-2" href="#knowledge">KNOWLEDGE</a>
+        <a class="navbar-nav mr-2 p-2" href="#projects">PROJECTS</a>
+        <a class="navbar-nav mr-2 p-2" href="#resume">RESUME</a>
       </div>
     </nav>
-  </nav>
-  <header class="parallax">
-    <!-- hero img and name -->
-    <div class="row justify-content-center">
+  <header class="container-fluid d-flex justify-content-center align-items-center parallax">
+    <div class="row">
       <div class="hero">
-        <div class="hero-image">
-          <!-- Hero Image -->
-          <!-- <img src="" alt=""> -->
-        </div>
         <h1>Matthew J. Montalto</h1>
         <h2>Software Engineer</h2>
         <p>Boston, MA</p>
       </div>
-    </div>
+</div>
   </header>
   <section class="container-fluid about" id="about">
     <div class="row justify-content-center">
@@ -47,33 +43,37 @@
         <h2>About</h2>
       </div>
     </div>
-    <div class="row justify-content-space">
-      <div class="col-md-6 col-sm-12 align-self-center">
+    <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="hero-image">
+          <!-- Hero Image -->
+        </div>
         <h2>Boston-based Software Engineer</h2>
         <button class="btn">Download Resume</button>
       </div>
       <div class="col-md-6 col-sm-12 align-self-center">
         <p class="about-me my-2">
-          I am a software engineer with an eclectic background that spans audio engineering, CRM administration, sales, and marketing. Following a realization that I was seeking out and energized by the most technical aspects of the work I
-          performed, I committed myself to a career where I am able to fully explore my passion for building, creating, and problem-solving.
+          I am a software engineer with an eclectic background that spans audio engineering, CRM administration, marketing, and sales. Following a realization that I was seeking out and energized by the most technical aspects of the work I
+          performed, I committed myself to a career through which I am able to fully explore my passion for building, creating, and problem-solving.
         </p>
         <p class="about-me my-2">
-          From each role I learned to enjoy collaboration with numerous personalities—how to harness creativity and
-          leverage passionate energy. I was taught to value a well-crafted story and to know when listening with an open mind is most important. I view problems as opportunities and value disciplined optimization. As I look ahead to my career as a
-          software engineer, I see a new opportunity to combine the talents I’ve honed these past years and apply them to developing software that is fun, powerful, useful, and valuable.
+          My experience has taught me to enjoy collaboration with numerous personalities and how to harness creativity and
+          leverage passionate energy. I was taught to value a well-crafted story and to know when listening with an open mind is most important. I view problems as opportunities and value disciplined optimization. As I look ahead, I see boundless opportunity to combine the talents I’ve honed these past years and apply them to developing software that is fun, powerful, useful, and valuable.
         </p>
       </div>
     </div>
+    </div>
   </section>
 
-  <section class="container-fluid skills" id="knowledge">
+  <section class="container-fluid" id="knowledge">
     <!-- SKills -->
     <div class="row">
       <div class="col titles">
         <h2>Technologies</h2>
       </div>
     </div>
-    <article class="row justify-content-center">
+    <article class="row d-flex justify-content-around">
       <div class="col-md-4 col-sm-12">
         <h3>Languages and Frameworks</h3>
       </div>
@@ -91,51 +91,53 @@
         <h2>Projects</h2>
       </div>
     </div>
-    <article class="row justify-content-around">
-      <div class="col-lg-3 col-md-6 col-sm-12 knowledge">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="#" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Tic-Tac-Toe</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
+    <article class="d-flex justify-content-md-around">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="#" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Tic-Tac-Toe</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 knowledge">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="#" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Hot Sauce Recipe Keeper</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
+        <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="#" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hot Sauce Recipe Keeper</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 knowledge">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="#" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Group Project</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
+        <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="#" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Group Project</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 knowledge">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="#" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Capstone Project</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">View Project</a>
+        <div class="col-lg-3 col-md-6 col-sm-12 my-2">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="#" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Capstone Project</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
           </div>
         </div>
       </div>
     </article>
   </section>
-  <footer class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-    <div class="d-flex justify-content-end">
+  <footer class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
+    <div class="d-inline-flex">
       <a class="navbar-nav mr-2 p-2" href="#">LinkedIn</a>
       <a class="navbar-nav mr-2 p-2" href="#projects">Github</a>
       <a class="navbar-nav mr-2 p-2" href="#resume">Contact Me</a>

@@ -1,20 +1,32 @@
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+a {
+  color:#000
+}
+
 body {
-  /* background: #2c3748; */
+  width: 100%;
 }
 
 h1 {
-  color: #ffa803;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
 }
 
 h2 {
-  color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 h3 {
-  color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
 header {
+  background-image: url("../public/abstract-blur-close-up.jpg");
   min-height: 80vh;
 }
 
@@ -23,34 +35,47 @@ html {
 }
 
 p {
-  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
 }
 section {
   min-height: 80vh;
-  background-color: grey
+  background-color: #f8f9fa;
 }
 
 .about {
-  background-color: grey;
   text-align: center;
 }
 
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
+}
+
 .hero {
-  margin: 2rem 0;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.hero > p {
   text-align: center;
 }
 
 .hero-image {
   background-color: white;
+  background-image: url("../public/matthew_montalto_headshot_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 50%;
-  height: 50vh;
-  margin: 2rem 0;
-  width: 50vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 40vh;
+  margin: 2rem auto;
+  width: 40vh;
 }
 
 .parallax {
   background-attachment: fixed;
-  background-image: url("../public/birds-cold-conifer-917494.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,11 +87,18 @@ section {
 }
 
 .knowledge {
-  color: white
+  color: #fff;
   text-align: center;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .titles {
-  margin: 2rem 0;
+  border-bottom: grey solid 2px;
+  margin: 4rem 4rem;
   text-align: center;
 }

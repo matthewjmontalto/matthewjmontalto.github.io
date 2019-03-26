@@ -22,7 +22,7 @@ h2 {
 
 h3 {
   font-family: 'Raleway', sans-serif;
-  text-align: center;
+  text-align: left;
 }
 
 header {
@@ -74,6 +74,10 @@ section {
   width: 40vh;
 }
 
+.hero-image > h3 {
+  text-align: left
+}
+
 .parallax {
   background-attachment: fixed;
   background-position: center;
@@ -86,8 +90,7 @@ section {
 
 }
 
-.knowledge {
-  color: #fff;
+.knowledge > h3 {
   text-align: center;
 }
 

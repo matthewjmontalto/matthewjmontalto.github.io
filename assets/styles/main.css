@@ -27,7 +27,7 @@ h3 {
 }
 
 header {
-  background-image: url("../public/abstract-blur-close-up.jpg");
+  background-image: url("../images/abstract-blur-close-up.jpg");
   min-height: 80vh;
 }
 
@@ -68,7 +68,7 @@ section {
 
 .hero-image {
   background-color: white;
-  background-image: url("../public/matthew_montalto_headshot_1.jpg");
+  background-image: url("../images/matthew_montalto_headshot_1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

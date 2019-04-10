@@ -4,7 +4,12 @@ font-family: 'Open Sans', sans-serif;
 */
 
 a {
-  color:#000
+  color:#000;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline overline;
 }
 
 body {
@@ -58,12 +63,24 @@ section {
   height: 5px;
   background-color: #333;
   margin: 6px 0;
-  transition: 0.4s;
+  transition: 0.25s;
 }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 0 auto;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .hero {
@@ -98,8 +115,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
-  /* transform: translateZ(-1px) scale(1.12);
-  z-index: -1; */
 }
 
 .projects {

@@ -13,6 +13,7 @@ a:hover {
 }
 
 body {
+  background-color: #f8f9fa;
   position: relative;
   width: 100%;
 }
@@ -33,7 +34,7 @@ h3 {
 
 header {
   background-image: url("../images/abstract-blur-close-up.jpg");
-  min-height: 80vh;
+  min-height: 90vh;
   overflow-x: hidden;
 }
 
@@ -47,7 +48,6 @@ p {
 }
 section {
   min-height: 100vh;
-  background-color: #f8f9fa;
 }
 
 .about {
@@ -118,7 +118,41 @@ section {
 }
 
 .projects {
+  margin: 2rem auto;
+  text-align: center;
+}
 
+.projects > h3 {
+  text-align: left
+}
+
+.project-logo {
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 9px -4px rgba(0,0,0,0.75);
+  min-height: 45vh;
+  margin: 2rem auto;
+  width: 40vh;
+}
+
+.project1 {
+  background-image: url("../images/tic-tac-toe-splash.png");
+}
+
+.project2 {
+  background-image: url("../images/hot-pepper-logo.png");
+}
+
+.project3 {
+  background-image: url("../images/power-inventory-logo.png");
+}
+
+.project4 {
+  background-image: url("../images/tic-tac-toe-splash.png");
 }
 
 .knowledge > h3 {

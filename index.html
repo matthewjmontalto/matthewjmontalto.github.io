@@ -8,6 +8,9 @@
   <!-- bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <!-- animate on scroll -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- native styles -->
   <link href="assets/styles/main.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
@@ -57,7 +60,7 @@
       </div>
     </div>
     <div class="container">
-    <div class="row">
+    <div data-aos="slide-up" class="row">
       <div class="col-md-6 col-sm-12">
         <div class="hero-image">
           <!-- Hero Image -->
@@ -105,55 +108,81 @@
         <h2>Projects</h2>
       </div>
     </div>
-    <article class="d-flex justify-content-md-around">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-12 my-2">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="#" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Tic-Tac-Toe</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 my-2">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="#" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Hot Sauce Recipe Keeper</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 my-2">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="#" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Group Project</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 my-2">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="#" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Capstone Project</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">View Project</a>
-            </div>
-          </div>
-        </div>
+    <div class="container">
+    <div class="row">
+      <div data-aos="slide-up" class="col-md-6 col-sm-12">
+        <!-- project image 1 -->
+        <div class="project-logo project1"></div>
+        <a class="btn" href="https://matthewjmontalto.github.io/tic-tac-toe/" target="_blank">Play Now</a>
       </div>
-    </article>
+      <div data-aos="slide-up" class="col-md-6 col-sm-12 align-self-center">
+        <h3>Tic-Tac-Toe</h3>
+        <p class="my-2">
+          Play an online tic-tac-toe game with a partner and keep track
+          of wins and losses over time by establishing your player account.
+        </p>
+        <p class="my-2">
+          Technologies used:
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div data-aos="slide-up" class="col-md-6 col-sm-12 align-self-center">
+        <h3>Hot Sauce Recipe Keeper</h3>
+        <p class="my-2">
+          If you, like so many before you, are wondering how you can keep
+          track of your countless hot sauce recipes, look no further!
+          Track your recipes in one location, online!
+        </p>
+        <p class="my-2">
+          Technologies used:
+        </p>
+      </div>
+      <div data-aos="slide-up" class="col-md-6 col-sm-12">
+        <!-- project image 2 -->
+        <div class="project-logo project2"></div>
+        <a class="btn" href="https://matthewjmontalto.github.io/tic-tac-toe/" target="_blank">Make Some Hot Sauce</a>
+      </div>
+    </div>
+    <div class="row">
+      <div data-aos="slide-up" class="col-md-6 col-sm-12">
+        <div class="project-logo project3"></div>
+        <button class="btn">Minimize Shrinkage</button>
+      </div>
+      <div data-aos="slide-up" class="col-md-6 col-sm-12 align-self-center">
+        <h3>Power Inventory Management System</h3>
+        <p class="my-2">
+          A powerful inventory management system for powerful people.
+        </p>
+        <p class="my-2">
+          Technologies used:
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div data-aos="slide-up" class="col-md-6 col-sm-12 align-self-center">
+        <h3>Capstone Project</h3>
+        <p class="my-2">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ipsam doloribus, quo expedita sit ipsa harum placeat reiciendis vitae excepturi quibusdam minus soluta veritatis! Odit dignissimos debitis, fugit deleniti voluptates.
+        </p>
+        <p class="my-2">
+          Technologies used:
+        </p>
+      </div>
+      <div data-aos="slide-up" class="col-md-6 col-sm-12">
+        <div class="project-logo project4">
+
+        </div>
+        <button class="btn">Capstone Away!</button>
+      </div>
+    </div>
+    </div>
+
   </section>
   <footer class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-center">
     <div class="d-inline-flex">
-      <a class="navbar-nav mr-2 p-2" href="#">LinkedIn</a>
-      <a class="navbar-nav mr-2 p-2" href="#projects">Github</a>
+      <a class="navbar-nav mr-2 p-2" href="https://www.linkedin.com/in/matthew-j-montalto/" target="_blank">LinkedIn</a>
+      <a class="navbar-nav mr-2 p-2" href="https://github.com/matthewjmontalto" target="_blank">Github</a>
       <a class="navbar-nav mr-2 p-2" href="#resume">Contact Me</a>
     </div>
   </footer>
@@ -161,6 +190,9 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- animate on scroll script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>AOS.init();</script>
 </body>
 
 </html>

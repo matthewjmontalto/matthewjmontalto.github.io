@@ -170,3 +170,10 @@ section {
   margin: 4rem 4rem;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .content-reorder {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

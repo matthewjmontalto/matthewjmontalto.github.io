@@ -83,6 +83,18 @@ section {
   transform: rotate(45deg) translate(-8px, -8px);
 }
 
+.devicon-list {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.devicon-list > div {
+  font-size: 6rem;
+  margin: 2rem;
+  text-align: center;
+}
+
 .hero {
   margin: 2rem auto;
   text-align: center;
@@ -175,5 +187,11 @@ section {
   .content-reorder {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .devicon-list > div {
+    font-size: 5rem;
+    margin: 2rem;
+    text-align: center;
   }
 }

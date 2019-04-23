@@ -66,11 +66,6 @@ section {
   transition: 0.25s;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 0 auto;
-}
-
 .change .bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px);
   transform: rotate(-45deg) translate(-9px, 6px);
@@ -165,10 +160,6 @@ section {
 
 .project4 {
   background-image: url("../images/tic-tac-toe-splash.png");
-}
-
-.knowledge > h3 {
-  text-align: center;
 }
 
 .sticky {

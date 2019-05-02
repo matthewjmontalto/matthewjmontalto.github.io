@@ -19,8 +19,9 @@ body {
 }
 
 h1 {
-  font-family: 'Raleway', sans-serif;
   color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4rem;
 }
 
 h2 {
@@ -91,6 +92,7 @@ section {
 }
 
 .hero {
+  color: #fff;
   margin: 2rem auto;
   text-align: center;
 }
@@ -159,7 +161,7 @@ section {
 }
 
 .project4 {
-  background-image: url("../images/tic-tac-toe-splash.png");
+  background-image: url("../images/pomato_task_tracker_snapshot.png");
 }
 
 .sticky {
@@ -184,5 +186,9 @@ section {
     font-size: 5rem;
     margin: 2rem;
     text-align: center;
+  }
+
+  .hero > h1 {
+    font-size: 3rem;
   }
 }
